@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #F6F4EB;
+    padding: 20px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+#result{
+    display: flex;
+    flex-wrap: wrap;
+    gap : 20px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    gap:20px;
+}
+
+.btns button{
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    width: 15%;
+}
+
+#delete, #countries{
+    padding: 10px 20px;
+}
+
+.card{
+    width: 30%;
+    height: auto;
+    border: 1px solid #f4f4f4;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #91C8E4;
+    translate: 1s;
+   
+}
+
+.card:hover{
+    transform: scale(1.03);
+}
+.card-body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 16px;
+}
+.card a{
+    border: 1px solid #f4f4f4;
+    border-radius: 15px;
+    padding: 5px 10px;
+    align-self: center;
+    text-decoration: none;
+    background-color: #4682A9;
+    color: #F6F4EB;
+}
+#playGameBtn{
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    width: 15%;
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+@media (max-width :950px){
+    .card{
+        width: 47%;
+    }
+}
+
+@media (max-width :850px){
+    
+    .card{
+        width: 100%;
+        height: auto;
+       
+    }
+    .btns button{
+        width: 100%;
+    }
+}
+
