@@ -19,7 +19,7 @@ button{
     width: 80%;
     height: 100vh;
     margin: 0 auto;
-    background-image: url(asses/worldmap.jpg);
+    background-image: url(asset/worldmap.jpg);
     background-position: center;
     padding: 20px;
     background-size: cover;
